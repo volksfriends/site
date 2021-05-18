@@ -4,7 +4,7 @@ const hoursContainer = document.querySelector('#hours')
 const daysContainer = document.querySelector('#days')
 
 const nextYear = new Date().getFullYear() + 1
-const newYearTime = new Date(`March 22 2021 00:00:00`)
+const newYearTime = new Date(`July 30 2021 00:00:00`)
 
 const updateCountDown = () => {
 	const currentTime = new Date()
